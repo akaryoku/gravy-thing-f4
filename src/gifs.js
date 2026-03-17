@@ -1,0 +1,37 @@
+const gifs = Object.freeze([
+  "https://tenor.com/view/the-thing-fantastic-fantastic-four-fantastic-4-first-steps-gif-11039327388273476069",
+  "https://tenor.com/view/ben-grimm-the-thing-fantastic-four-gif-18164316257828632623",
+  "https://tenor.com/view/the-thing-ben-grimm-fantastic-4-fantastic-four-clobbering-time-gif-14892504997195156217",
+  "https://tenor.com/view/fantastic-four-first-steps-the-thing-ben-grimm-ebon-moss-bachrach-fantastic-four-gif-14022551539416784081",
+  "https://tenor.com/view/fantastic-four-the-thing-thing-fantastic-four-rise-of-the-silver-surfer-rise-of-the-silver-surfer-gif-2637826182180300265",
+  "https://tenor.com/view/fantastic-four-thing-ben-grimm-jamie-bell-clobberin-time-gif-5660277",
+  "https://tenor.com/view/okay-the-thing-ben-grimm-the-fantastic-four-first-steps-alright-gif-3460638912377461755",
+  "https://tenor.com/view/fantastic-four-what-time-is-it-ben-the-thing-human-torch-gif-1295335174274159930",
+  "https://tenor.com/view/ben-grimm-fantastic-four-the-thing-gif-9208003",
+  "https://tenor.com/view/the-thing-marvel-fantastic-four-marvel-ben-grimm-gif-15838031083756817044",
+  "https://tenor.com/view/smile-the-thing-ben-grimm-the-fantastic-four-first-steps-smirk-gif-12063970391525183022",
+  "https://tenor.com/view/clapping-ben-grimm-the-thing-the-fantastic-four-first-steps-impressed-gif-9039704173639143873",
+  "https://tenor.com/view/fantastic-four-rise-of-the-silver-surfer-the-thing-ben-grimm-action-gif-5660278",
+  "https://tenor.com/view/fantastic-four-the-thing-fight-scene-action-gif-5660279",
+  "https://tenor.com/view/fantastic-four-ben-grimm-transformation-rock-thing-gif-5660280",
+  "https://tenor.com/view/fantastic-four-the-thing-strong-power-gif-5660281",
+  "https://tenor.com/view/fantastic-four-the-thing-rocky-stone-gif-5660282",
+  "https://tenor.com/view/fantastic-four-the-thing-walking-stomping-gif-5660283",
+  "https://tenor.com/view/fantastic-four-the-thing-angry-roar-gif-5660284",
+  "https://tenor.com/view/fantastic-four-the-thing-smash-punch-gif-5660285",
+  "https://tenor.com/view/fantastic-four-the-thing-throwing-gif-5660286",
+  "https://tenor.com/view/fantastic-four-first-steps-the-thing-ben-grimm-wink-gif-12063970391525183023",
+  "https://tenor.com/view/fantastic-four-first-steps-the-thing-ben-grimm-laugh-gif-12063970391525183024",
+  "https://tenor.com/view/fantastic-four-first-steps-the-thing-ben-grimm-nod-gif-12063970391525183025",
+  "https://tenor.com/view/fantastic-four-first-steps-the-thing-ben-grimm-shrug-gif-12063970391525183026",
+  "https://tenor.com/view/fantastic-four-first-steps-the-thing-ben-grimm-wave-gif-12063970391525183027",
+  "https://tenor.com/view/fantastic-four-first-steps-the-thing-ben-grimm-fist-bump-gif-12063970391525183028",
+  "https://tenor.com/view/fantastic-four-the-thing-classic-orange-rocky-gif-5660287",
+  "https://tenor.com/view/fantastic-four-the-thing-thing-grunt-gif-5660288",
+  "https://tenor.com/view/fantastic-four-the-thing-its-clobberin-time-catchphrase-gif-5660289",
+  "https://tenor.com/view/fantastic-four-the-thing-strength-power-display-gif-5660290",
+]);
+
+export function getRandomGif() {
+  return gifs[Math.floor(Math.random() * gifs.length)];
+}
