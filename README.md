@@ -1,6 +1,9 @@
 # gravy-thing-f4 🪨
 
 A Discord bot that periodically posts GIFs of The Thing (Ben Grimm) from Fantastic Four to your server.
+<img width="669" height="297" alt="image" src="https://github.com/user-attachments/assets/082cbf57-69f9-4e8a-a3de-bcde340cc109" />
+<img width="842" height="129" alt="image" src="https://github.com/user-attachments/assets/c19079ee-3df2-49ff-8261-b22eb041d122" />
+
 
 ## ⚠️ DISCLAIMER
 
